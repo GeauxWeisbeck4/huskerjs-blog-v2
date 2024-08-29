@@ -1,0 +1,29 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome to Saturday in Lincoln, Nebraska</h1>
+			<p>
+			  I don't know if I can name the feeling each year when it finally is only a few days away. Usually it just shows up - even though it feels like next year is so far away after the last game each year, the season creeps up - or rather comes flying at you out of nowhere and inserts itself into every facet of your life for the next 4 months.
+			</p>
+			<p>
+			HuskerJS is my second version of a project I attempted to start a couple years back, but never really got around to blogging like I wanted to. This year it is going to be different - expect full Husker coverage and my analysis on games, stats and more.
+			</p>
+			<p>
+			This website is a work in progress, but if you check back frequently you willbe pleasantly surprised with what you find!
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
